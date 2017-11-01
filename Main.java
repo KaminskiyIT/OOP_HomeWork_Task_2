@@ -25,9 +25,9 @@ public class Main {
 
             System.out.println(board);
 
-        }catch (MyException1 e) {
+        }catch (SamePointsException e) {
             System.out.println(e.getMessage());
-        }catch (MyException2 e) {
+        }catch (EqualityOfDiagonalsException e) {
             System.out.println(e.getMessage());
         }catch (Exception e){
             System.out.println("One of the points does not exist!!!");

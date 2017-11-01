@@ -6,7 +6,7 @@ public class Triangle extends Shape {
     private Point two;
     private Point three;
 
-    public Triangle(Point one, Point two, Point three) throws MyException1 {
+    public Triangle(Point one, Point two, Point three) throws SamePointsException {
         super();
         this.one = one;
         this.two = two;
@@ -60,8 +60,8 @@ public class Triangle extends Shape {
         return "Triangle [Perimetr = " + getPerimetr() + ", Area = " + getArea() + "]";
     }
 
-    public void myExceptionForTriangular() throws MyException1 {
-        if (one.equals(two) || one.equals(three) || two.equals(three)) throw new MyException1();
+    public void myExceptionForTriangular() throws SamePointsException {
+        if (one.equals(two) || one.equals(three) || two.equals(three)) throw new SamePointsException();
     }
 
 

@@ -13,24 +13,6 @@
   </nodes>
   <notes />
   <edges>
-    <edge source="net.ukr.kaminskiy.Circle" target="net.ukr.kaminskiy.Shape">
-      <point x="73.33333333333337" y="-148.0" />
-      <point x="762.8333333333334" y="354.0" />
-      <point x="842.8087962962964" y="354.0" />
-      <point x="-15.083333333333314" y="37.0" />
-    </edge>
-    <edge source="net.ukr.kaminskiy.Square" target="net.ukr.kaminskiy.Shape">
-      <point x="82.66666666666669" y="-214.0" />
-      <point x="254.16666666666669" y="334.0" />
-      <point x="782.4754629629629" y="334.0" />
-      <point x="-75.41666666666669" y="37.0" />
-    </edge>
-    <edge source="net.ukr.kaminskiy.Board" target="net.ukr.kaminskiy.Shape">
-      <point x="0.0" y="-71.0" />
-      <point x="944.5" y="354.0" />
-      <point x="903.1421296296296" y="354.0" />
-      <point x="45.25" y="37.0" />
-    </edge>
     <edge source="net.ukr.kaminskiy.Main" target="net.ukr.kaminskiy.Board">
       <point x="76.95000000000005" y="-26.0" />
       <point x="514.45" y="862.0" />
@@ -43,12 +25,6 @@
       <point x="349.8726851851852" y="304.0" />
       <point x="74.6875" y="137.0" />
     </edge>
-    <edge source="net.ukr.kaminskiy.Triangle" target="net.ukr.kaminskiy.Point">
-      <point x="-81.33333333333331" y="-181.0" />
-      <point x="356.1666666666667" y="324.0" />
-      <point x="290.1226851851852" y="324.0" />
-      <point x="14.9375" y="137.0" />
-    </edge>
     <edge source="net.ukr.kaminskiy.Main" target="net.ukr.kaminskiy.Point">
       <point x="-76.94999999999993" y="-26.0" />
       <point x="360.55000000000007" y="862.0" />
@@ -57,23 +33,11 @@
       <point x="170.62268518518522" y="294.0" />
       <point x="-104.5625" y="137.0" />
     </edge>
-    <edge source="net.ukr.kaminskiy.Main" target="net.ukr.kaminskiy.Triangle">
-      <point x="-8.549999999999955" y="-26.0" />
-      <point x="428.95000000000005" y="822.0" />
-      <point x="376.5" y="822.0" />
-      <point x="-61.0" y="181.0" />
-    </edge>
     <edge source="net.ukr.kaminskiy.Square" target="net.ukr.kaminskiy.Point">
       <point x="-82.66666666666669" y="-214.0" />
       <point x="88.83333333333331" y="314.0" />
       <point x="230.37268518518522" y="314.0" />
       <point x="-44.8125" y="137.0" />
-    </edge>
-    <edge source="net.ukr.kaminskiy.Main" target="net.ukr.kaminskiy.Square">
-      <point x="-42.75" y="-26.0" />
-      <point x="394.75" y="842.0" />
-      <point x="109.5" y="842.0" />
-      <point x="-62.0" y="214.0" />
     </edge>
     <edge source="net.ukr.kaminskiy.Main" target="net.ukr.kaminskiy.Circle">
       <point x="25.649999999999977" y="-26.0" />
@@ -81,17 +45,51 @@
       <point x="634.5" y="832.0" />
       <point x="-55.0" y="148.0" />
     </edge>
+    <edge source="net.ukr.kaminskiy.Circle" target="net.ukr.kaminskiy.Shape">
+      <point x="73.33333333333337" y="-148.0" />
+      <point x="762.8333333333334" y="354.0" />
+      <point x="842.8087962962962" y="354.0" />
+      <point x="-15.083333333333371" y="37.0" />
+    </edge>
+    <edge source="net.ukr.kaminskiy.Square" target="net.ukr.kaminskiy.Shape">
+      <point x="82.66666666666669" y="-214.0" />
+      <point x="254.16666666666669" y="334.0" />
+      <point x="782.475462962963" y="334.0" />
+      <point x="-75.41666666666663" y="37.0" />
+    </edge>
+    <edge source="net.ukr.kaminskiy.Board" target="net.ukr.kaminskiy.Shape">
+      <point x="0.0" y="-71.0" />
+      <point x="944.5" y="354.0" />
+      <point x="903.1421296296296" y="354.0" />
+      <point x="45.25" y="37.0" />
+    </edge>
+    <edge source="net.ukr.kaminskiy.Triangle" target="net.ukr.kaminskiy.Point">
+      <point x="-81.33333333333331" y="-181.0" />
+      <point x="356.1666666666667" y="324.0" />
+      <point x="290.1226851851852" y="324.0" />
+      <point x="14.9375" y="137.0" />
+    </edge>
+    <edge source="net.ukr.kaminskiy.Main" target="net.ukr.kaminskiy.Triangle">
+      <point x="-8.549999999999955" y="-26.0" />
+      <point x="428.95000000000005" y="822.0" />
+      <point x="376.5" y="822.0" />
+      <point x="-61.0" y="181.0" />
+    </edge>
+    <edge source="net.ukr.kaminskiy.Main" target="net.ukr.kaminskiy.Square">
+      <point x="-42.75" y="-26.0" />
+      <point x="394.75" y="842.0" />
+      <point x="109.5" y="842.0" />
+      <point x="-62.0" y="214.0" />
+    </edge>
     <edge source="net.ukr.kaminskiy.Triangle" target="net.ukr.kaminskiy.Shape">
-      <point x="81.33333333333331" y="-181.0" />
-      <point x="518.8333333333333" y="344.0" />
+      <point x="81.33333333333337" y="-181.0" />
+      <point x="518.8333333333334" y="344.0" />
       <point x="812.6421296296296" y="344.0" />
       <point x="-45.25" y="37.0" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="0.35639412997903563" x="535.0" y="467.0" />
-  <SelectedNodes>
-    <node>net.ukr.kaminskiy.Point</node>
-  </SelectedNodes>
+  <settings layout="Hierarchic Group" zoom="0.4" x="761.9384616230227" y="554.4061146453892" />
+  <SelectedNodes />
   <Categories>
     <Category>Fields</Category>
     <Category>Constructors</Category>

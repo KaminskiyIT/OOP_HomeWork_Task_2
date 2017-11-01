@@ -7,7 +7,7 @@ public class Square extends Shape {
     private Point three;
     private Point four;
 
-    public Square(Point one, Point two, Point three, Point four) throws MyException2, MyException1 {
+    public Square(Point one, Point two, Point three, Point four) throws EqualityOfDiagonalsException, SamePointsException {
         super();
         this.one = one;
         this.two = two;
@@ -59,10 +59,10 @@ public class Square extends Shape {
         return "Square [Perimetr = " + getPerimetr() + ", Area = " + getArea() + "]";
     }
 
-    public void myExceptionForRectangle() throws MyException1, MyException2 {
-        if (one.equals(two) || one.equals(three) || one.equals(four)) throw new MyException1();
-        else if (two.equals(three) || two.equals(four) || three.equals(four)) throw new MyException1();
-        else if (Point.sideLength(one, three) != Point.sideLength(two, four)) throw new MyException2();
+    public void myExceptionForRectangle() throws SamePointsException, EqualityOfDiagonalsException {
+        if (one.equals(two) || one.equals(three) || one.equals(four)) throw new SamePointsException();
+        else if (two.equals(three) || two.equals(four) || three.equals(four)) throw new SamePointsException();
+        else if (Point.sideLength(one, three) != Point.sideLength(two, four)) throw new EqualityOfDiagonalsException();
     }
 
 }

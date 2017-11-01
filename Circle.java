@@ -5,7 +5,7 @@ public class Circle extends Shape {
     private Point one;
     private Point two;
 
-    public Circle(Point one, Point two) throws MyException1 {
+    public Circle(Point one, Point two) throws SamePointsException {
         super();
         this.one = one;
         this.two = two;
@@ -51,7 +51,7 @@ public class Circle extends Shape {
         return "Circle [Perimetr = " + getPerimetr() + ", Area = " + getArea() + "]";
     }
 
-    public void myExceptionForCircle() throws MyException1 {
-        if (one.equals(two)) throw new MyException1();
+    public void myExceptionForCircle() throws SamePointsException {
+        if (one.equals(two)) throw new SamePointsException();
     }
 }
